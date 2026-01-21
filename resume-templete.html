@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dakhin Tudu - Resume</title>
+    <style>
+        @page {
+            size: A4 portrait;
+            margin: 0;
+        }
+
+        @media print {
+
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                width: 210mm;
+                height: 297mm;
+                overflow: hidden;
+            }
+
+            .no-print {
+                display: none !important;
+                visibility: hidden !important;
+            }
+        }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #000;
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            padding: 14mm 16mm;
+            background: #fff;
+            box-sizing: border-box;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 8px;
+        }
+
+        .header h1 {
+            margin: 0 0 4px 0;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header .title {
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .contact {
+            font-size: 10px;
+            line-height: 1.5;
+        }
+
+        .contact a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 10px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 8px 0 5px 0;
+            border-bottom: 1.5px solid #000;
+            padding-bottom: 3px;
+            letter-spacing: 0.5px;
+        }
+
+        .job-header,
+        .edu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 11px;
+        }
+
+        .company {
+            font-weight: 600;
+            font-size: 11px;
+        }
+
+        .date {
+            font-size: 10px;
+            font-style: italic;
+        }
+
+        .section ul {
+            margin: 3px 0 6px 20px;
+            padding: 0;
+        }
+
+        .section li {
+            font-size: 10px;
+            margin-bottom: 2px;
+            line-height: 1.4;
+        }
+
+        .skills-content,
+        .summary-content {
+            font-size: 10px;
+            line-height: 1.5;
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 11px;
+            margin-top: 4px;
+        }
+
+        .download-btn {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 6px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .download-btn:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="download-btn no-print" onclick="window.print()">Download as PDF</button>
+
+    <div class="header">
+        <h1>YOUR NAME HERE</h1>
+        <div class="title">Java Spring Boot Developer</div>
+        <div class="contact">
+            +91 97XXXXXXXX | abcd@gmail.com | Bhubaneswar, India<br>
+            LinkedIn: https://www.linkedin.com/in/your-linkedin-profile| GitHub: https://github.com/your-github-profile
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL SUMMARY</div>
+        <div class="summary-content">
+            Results-driven Java Spring Boot Developer with 1+ year of experience designing and implementing scalable
+            microservices and REST APIs. Expertise in Spring Boot, Spring Data JPA, Hibernate, and PostgreSQL with
+            proven ability to optimize system performance. Reduced API response times to sub-100ms and database load by
+            50% through Redis caching implementation. Skilled in building distributed systems using Spring Cloud, Eureka
+            Server, and API Gateway. Strong background in RBAC security, JWT authentication, and database optimization
+            for high-concurrency environments.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">TECHNICAL SKILLS</div>
+        <div class="skills-content">
+            <strong>Programming Languages:</strong> Java, C, JavaScript, HTML, CSS<br>
+            <strong>Frameworks & Technologies:</strong> Spring Boot, Spring Data JPA, Spring Security, Spring Cloud,
+            Hibernate, J2EE, RESTful APIs, Microservices<br>
+            <strong>Databases & Caching:</strong> PostgreSQL, MySQL, Redis, JDBC<br>
+            <strong>Development Tools:</strong> Git, GitHub, Maven, Docker, Postman, Swagger, Apache Tomcat, Lombok,
+            Eclipse, VS Code<br>
+            <strong>Core Java:</strong> OOP, Collections Framework, Exception Handling, Multithreading, Java 8+
+            (Streams, Lambda, Optional)<br>
+            <strong>Distributed Systems:</strong> Eureka Server, Spring Cloud Gateway, Service Discovery, Load
+            Balancing, Circuit Breaker<br>
+            <strong>Security & Authentication:</strong> Spring Security, JWT, OAuth2, Role-Based Access Control (RBAC)
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+
+        <div class="job-header">
+            <div>
+                <div class="job-title">Java Spring Boot Developer Trainee</div>
+                <div class="company">ABC Company, Bhubaneswar</div>
+            </div>
+            <div class="date">December 2024 – Present</div>
+        </div>
+        <ul>
+            <li>Engineered microservices architecture for Litigation Management System using Spring Boot
+                and PostgreSQL, supporting 500+ concurrent users across multiple modules</li>
+            <li>Architected and executed Spring Boot ETL pipeline migrating 100,000+ legacy records to redesigned schema
+                with zero data loss and 99.9% accuracy</li>
+            <li>Optimized Redis caching strategy achieving consistent sub-100ms API response times and reducing database
+                load by 50%, improving overall system throughput by 40%</li>
+            <li>Implemented comprehensive security framework with Spring Security, RBAC, and JWT authentication
+                supporting 5+ user roles with granular permission controls</li>
+            <li>Enhanced system reliability by integrating Eureka Server for service discovery, Spring Cloud Gateway for
+                intelligent routing, and circuit breaker patterns for fault tolerance</li>
+            <li>Optimized PostgreSQL database schema and query performance for high-concurrency operations, reducing
+                average query execution time by 35%</li>
+        </ul>
+
+        <div class="job-header">
+            <div>
+                <div class="job-title">Java Spring Boot Developer Intern</div>
+                <div class="company">ABC Company, Bhubaneswar</div>
+            </div>
+            <div class="date">September 2024 – December 2024</div>
+        </div>
+        <ul>
+            <li>Migrated legacy monolithic application to Spring Boot microservices, improving modularity, scalability,
+                and deployment flexibility</li>
+            <li>Designed and developed secure RESTful APIs for case management and document handling with robust
+                validation and error handling</li>
+            <li>Implemented Redis caching and JWT-based RBAC authentication, reducing database queries by 30% and
+                improving API response times</li>
+
+        </ul>
+
+        <div class="job-header">
+            <div>
+                <div class="job-title">Java Full Stack Developer Intern</div>
+                <div class="company">ABC Company, Bhubaneswar</div>
+            </div>
+            <div class="date">January 2024 – September 2024</div>
+        </div>
+        <ul>
+            <!-- <li>Completed intensive 9-month training program in Java, J2EE, Hibernate, Spring Boot, and MySQL database
+                management</li>
+            <li>Developed 5+ full-stack web applications using Spring MVC architecture, demonstrating proficiency in
+                REST API design and database integration</li>
+            <li>Gained hands-on experience with industry-standard tools including Git for version control, Maven for
+                build automation, Apache Tomcat server deployment, and Postman for API testing</li>
+            <li>Implemented CRUD operations, form validations, session management, and security features in training
+                projects</li> -->
+
+            <li>Completed a 9-month intensive training in Java, J2EE, Hibernate, Spring Boot, MySQL, and full-stack web
+                development</li>
+            <li>Built 5+ Spring MVC applications implementing REST APIs, CRUD operations, validation, session
+                management, security, and using tools like Git, Maven, Tomcat, and Postman</li>
+
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">KEY PROJECTS</div>
+
+        <div class="project-title">
+            Mini-Redis – Production-Grade In-Memory Cache System
+        </div>
+        <ul>
+            <li>Designed and built a custom in-memory key–value cache in Java supporting SET/GET/DELETE with TTL-based
+                expiration and background cleanup</li>
+            <li>Implemented thread-safe concurrent access using Java synchronization, enabling reliable parallel
+                operations with zero data inconsistency</li>
+            <li>Open-sourced and published on JitPack; integrated into a demo Spring Boot application achieving 30–50%
+                API response time improvement</li>
+            <li><strong>GitHub:</strong> https://github.com/your-github-profile/mini-redis</li>
+        </ul>
+
+
+        <div class="project-title">
+            Litigation Management System – Enterprise Microservices Platform
+        </div>
+        <ul>
+            <li>Architected a Spring Boot–based microservices system automating litigation workflows and reducing case
+                processing time by 30%</li>
+            <li>Developed secure RESTful APIs across case, document, and user services with Spring Security, JWT
+                authentication, and RBAC</li>
+            <li>Improved system reliability and observability by implementing centralized error handling and structured
+                logging, reducing failures by 25%</li>
+            <li><strong>GitHub:</strong>
+                https://github.com/your-github-profile/litigation-management-service-microservices-project</li>
+        </ul>
+
+    </div>
+
+    <div class="section">
+        <div class="section-title">EDUCATION</div>
+        <div class="job-header">
+            <div>
+                <div class="job-title">Bachelor of Technology in Computer Science and Engineering</div>
+                <div class="company">ABC University, Bhubaneswar</div>
+            </div>
+            <div class="date">2021 – 2025</div>
+        </div>
+        <div class="skills-content">CGPA: 8.34/10.0</div>
+    </div>
+
+    <script>
+        window.onbeforeprint = function () {
+            document.body.style.padding = '12mm 15mm';
+            // Hide button completely during print
+            const btn = document.querySelector('.download-btn');
+            if (btn) btn.style.display = 'none';
+        };
+
+        window.onafterprint = function () {
+            // Show button after print
+            const btn = document.querySelector('.download-btn');
+            if (btn) btn.style.display = 'block';
+        };
+    </script>
+</body>
+
+</html>
