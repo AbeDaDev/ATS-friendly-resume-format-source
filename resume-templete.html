@@ -26,6 +26,15 @@
                 display: none !important;
                 visibility: hidden !important;
             }
+
+            body {
+                margin: 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
         }
 
         body {
@@ -98,6 +107,18 @@
             font-size: 11px;
         }
 
+        .project-title {
+            margin-top: 10px;
+        }
+
+        .project-title:first-of-type {
+            margin-top: 4px;
+        }
+
+        .section ul {
+            margin-bottom: 8px;
+        }
+
         .company {
             font-weight: 600;
             font-size: 11px;
@@ -131,6 +152,10 @@
             margin-top: 4px;
         }
 
+        .section-title {
+            letter-spacing: 0.5px;
+        }
+
         .download-btn {
             background: #2563eb;
             color: white;
@@ -154,7 +179,7 @@
 
     <div class="header">
         <h1>Abraham Perez</h1>
-        <div class="title">Full Stack Engineer</div>
+        <div class="title">Full Stack Software Engineer</div>
         <div class="contact">
             +1 9096362637 | AbeDevelops@gmail.com | Victorville, CA<br>
             LinkedIn: https://www.linkedin.com/in/abedadev  |  GitHub: https://github.com/AbeDaDev
@@ -164,140 +189,115 @@
     <div class="section">
         <div class="section-title">PROFESSIONAL SUMMARY</div>
         <div class="summary-content">
-            I’M A FULL STACK ENGINEER
-
-I build responsive, scalable web applications using MongoDB, Express.js, React, Node.js, and Python. With 2.5 years of hands-on development experience and over a decade of professional experience in high-pressure, people-focused environments, I bring both technical execution and systems-level thinking to engineering teams.
-
-My work centers on developing clean, maintainable frontend architectures with React and TypeScript while building robust RESTful APIs and backend services with Node.js and Python. I prioritize performance, usability, and clear code structure, combining strong UX/UI fundamentals with practical experience in containerization and modern deployment workflows.
-
-I focus on delivering reliable, user-centered applications that balance thoughtful design with scalable backend implementation.
+            Full Stack Software Engineer with 2.5+ years of experience building responsive web applications using the MERN stack and Python. Skilled in developing scalable frontend architectures with React and TypeScript and building RESTful APIs with Node.js. Strong background in problem-solving, process optimization, and delivering user-focused solutions in high-pressure environments.
         </div>
     </div>
 
     <div class="section">
         <div class="section-title">TECHNICAL SKILLS</div>
         <div class="skills-content">
-            <strong>Primary Stack:</strong> MongoDB, Express.js, React, Node.js, Python <br>
-            <strong>Frontend:</strong> React, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design <br>
-            <strong>Backend:</strong> Node.js, Express.js, Python, RESTful APIs, API Integration <br>
-            <strong>Databases:</strong> MongoDB, PostgreSQL, MySQL <br>
-            <strong>DevOps & Tools:</strong> Git, GitHub, Docker, Postman, npm, VS Code <br>
-            <strong>Cloud & Deployment:</strong> Netlify | Currently Learning: AWS (EC2, S3 fundamentals) <br>
-            <strong>AI Integration:</strong> OpenAI API, AI-enabled application features
+            <div><strong>Languages:</strong> JavaScript (ES6+), TypeScript, Python, SQL</div>
+            <div><strong>Frontend:</strong> React, Next.js, HTML5, CSS3, Tailwind, Responsive Design</div>
+            <div><strong>Backend:</strong> Node.js, Express.js, REST APIs, API Integration, JSON</div>
+            <div><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL</div>
+            <div><strong>Tools:</strong> Git, GitHub, Docker, Postman, npm, VS Code</div>
+            <div><strong>Deployment:</strong> Netlify • Learning AWS (EC2, S3)</div>
+            <div><strong>Other:</strong> OpenAI API, AI-enabled features</div>
         </div>
     </div>
+
+    <div class="section">
+        <div class="section-title">KEY PROJECTS</div>
+    
+    <div class="project-title">
+        Real Estate Lead Generation Website (Freelance)  
+    </div>
+    <ul>
+        <li>Developed and deployed a client-facing real estate website using React, HTML, CSS, and JavaScript, featuring listings, testimonials, FAQs, and contact sections</li>
+        <li>Integrated a contact form with a third-party API to trigger instant email and SMS notifications, enabling real-time lead delivery and faster response times</li>
+        <li>Collaborated with client on requirements and feature iterations</li>
+        <li>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/AbeDaDev/Victors_RealEstate" target="_blank" rel="noopener noreferrer">
+                github.com/AbeDaDev/Victors_RealEstate
+            </a>
+        </li>
+    </ul>
+
+    <div class="project-title">
+        FOREVER. E-Commerce Web Application (MERN Stack) 
+    </div>
+    <ul>
+        <li>Developed a full-stack e-commerce app with product listings, cart functionality, and backend API integration</li>
+        <li>Built RESTful APIs using Node.js and Express, handling data operations and application logic</li>
+        <li>Structured scalable frontend components using React</li>
+        <li>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/AbeDaDev/Ecommerce_website" target="_blank" rel="noopener noreferrer">
+                github.com/AbeDaDev/Ecommerce_website
+            </a>
+        </li>
+    </ul>
+
+    <div class="project-title">
+        Personal Dashboard (Google Homepage App) 
+    </div>
+    <ul>
+        <li>Developed a customizable dashboard using React, integrating real-time data (crypto, weather, time, media APIs)</li>
+        <li>Implemented asynchronous data fetching and state management for live updates</li>
+        <li>Designed as a functional browser homepage to enhance usability</li>
+        <li>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/AbeDaDev/Personal-dashboard" target="_blank" rel="noopener noreferrer">
+                github.com/AbeDaDev/Personal-dashboard
+            </a>
+        </li>
+    </ul>
+</div>
 
     <div class="section">
         <div class="section-title">PROFESSIONAL EXPERIENCE</div>
 
         <div class="job-header">
             <div>
-                <div class="job-title">LEAD RECOVERY COACH | SUBSTANCE ABUSE DIRECT CARE STAFF</div>
-                <div class="company">OCTLC Inc - Sustain Recovery, Anaheim Hills</div>
+                <div class="job-title">Lead Recovery Coach | Direct Care Staff</div>
+                <div class="company">OCTLC Inc – Sustain Recovery, Anaheim Hills</div>
+                <div class="date">November 2017 – March 2024</div>
             </div>
-            <div class="date">November 2017 – March 2024</div>
+            
         </div>
         <ul>
-            <li>Team Leadership & Mentoring: Managed a multi-disciplinary team in a high-pressure environment, serving as the de facto House Manager and primary point of contact for staff training and operational support.</li>
-            <li>Process Optimization: Streamlined daily reporting and communication protocols, significantly improving data accuracy
-and hand-off efficiency between shifts.</li>
-            <li>Incident Management: Led rapid-response interventions during high-acuity crises, demonstrating the ability to think logically and maintain stability under extreme pressure.</li>
-            <li>Workflow Coordination: Orchestrated complex daily scheduling and resource allocation for a team of staff and 6+ clients to ensure 100% compliance with safety and regulatory standards.</li>
-            <li>Quality Assurance & Documentation: Maintained rigorous, audit-ready documentation and progress reports, ensuring all
-work met strict state and federal compliance requirements (HIPAA).</li>
-        </ul>
-
-        <div class="job-header">
-            <div>
-                <div class="job-title">Independent Distributor</div>
-                <div class="company">Vemma - Remote</div>
-            </div>
-            <div class="date">January 2012 – September 2022</div>
-        </div>
-        <ul>
-            <li>Growth & Scaling: Scaled a regional sales organization to "Gold" status, managing a high-performing team and implementing strategies that drove the business toward top-tier performance milestones.</li>
-            <li>Performance Mentorship: Recruited and onboarded new team members, developing a standardized training curriculum to
-improve sales conversion rates and operational consistency.</li>
-            <li>Stakeholder Presentation: Developed and delivered technical product presentations and motivational seminars to large
-groups, honing the ability to communicate complex value propositions to diverse audiences</li>
-            <li>Strategic Planning: Managed a self-starting business unit, utilizing data-driven goal setting and time-management frameworks to track progress toward high-level performance incentives.</li>
-        </ul>
-    </div>
-
-  
-    
-   <div class="section">
-        <div class="section-title">KEY PROJECTS</div>
-
-        <div class="project-title">
-            Victor Serna-Delgado Real Estate Proffecional – Freelance Real Estate Website to acquire more leads/clients 
-        </div>
-        <ul>
-            <li>Architected a Spring Boot–based microservices system automating litigation workflows and reducing case
-                processing time by 30%</li>
-            <li>Developed secure RESTful APIs across case, document, and user services with Spring Security, JWT
-                authentication, and RBAC</li>
-            <li>Improved system reliability and observability by implementing centralized error handling and structured
-                logging, reducing failures by 25%</li>
-            <li><strong>GitHub:</strong>https://github.com/AbeDaDev/Victors_RealEstate</li>
-        </ul>
-
-        <div class="project-title">
-            FOREVER. – MERN Stack E-Commerce Website 
-        </div>
-        <ul>
-            <li>Designed and built a custom in-memory key–value cache in Java supporting SET/GET/DELETE with TTL-based
-                expiration and background cleanup</li>
-            <li>Implemented thread-safe concurrent access using Java synchronization, enabling reliable parallel
-                operations with zero data inconsistency</li>
-            <li>Open-sourced and published on JitPack; integrated into a demo Spring Boot application achieving 30–50%
-                API response time improvement</li>
-            <li><strong>GitHub:</strong> https://github.com/AbeDaDev/Ecommerce_website</li>
-        </ul>
-
-        <div class="project-title">
-            Personal Dashboard – Google Chrome Home Dashboard 
-        </div>
-        <ul>
-            <li>Architected a Spring Boot–based microservices system automating litigation workflows and reducing case
-                processing time by 30%</li>
-            <li>Developed secure RESTful APIs across case, document, and user services with Spring Security, JWT
-                authentication, and RBAC</li>
-            <li>Improved system reliability and observability by implementing centralized error handling and structured
-                logging, reducing failures by 25%</li>
-            <li><strong>GitHub:</strong>https://github.com/AbeDaDev/Personal-dashboard</li>
+            <li>Solved high-pressure, real-time issues requiring critical thinking and rapid decision-making</li>
+            <li>Improved workflows and reporting processes, increasing efficiency and data accuracy</li>
+            <li>Coordinated team operations in fast-paced environments while maintaining compliance standards</li>
         </ul>
 
     </div>
 
     <div class="section">
         <div class="section-title">EDUCATION</div>
+
+         <div class="job-header">
+            <div>
+                <div class="company">Full Stack Engineering Path – Codecademy</div>
+                <div class="date">2023 – 2024</div>
+            </div>
+        </div>
+
+         <div class="job-header">
+            <div>
+                <div class="company">AI Engineering Path – Scrimba</div>
+                <div class="date">2024 – 2025</div>
+            </div>
+            
+        </div>
+
         <div class="job-header">
             <div>
-                <div class="company">Mount San Antonio College - Walnut, CA</div>
+                <div class="company">Mount San Antonio College – Walnut, CA</div>
+                <div class="date">2008 – 2015</div>
             </div>
-            <div class="date">2008 – 2015</div>
-        </div>
-
-         <div class="job-header">
-            <div>
-                <div class="company">CodeAcademy - Full Stack Engineering Path</div>
-            </div>
-            <div class="date">2023 – 2024</div>
-        </div>
-
-         <div class="job-header">
-            <div>
-                <div class="company">Scrimba - The AI Engineering Path</div>
-            </div>
-            <div class="date">2024 – 2025</div>
-        </div>
-
-         <div class="job-header">
-            <div>
-                <div class="company">Coursera - Google AI Essentials</div>
-            </div>
-            <div class="date">2026</div>
+            
         </div>
 
     </div>
